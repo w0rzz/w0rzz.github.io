@@ -1,0 +1,81 @@
+I"�%<p>So you’ve been playing computer games for a while and now you want to know how to make them? Maybe just out of curiosity or you want to make games as a hobby, or you want to secure a career in the game development industry. Maybe you want to start your own indie game studio.</p>
+
+<p><img src="/images/create_games/playing_game.jpg" alt="Video_Game" /></p>
+
+<p>I’m gonna lay more emphasis on the programming aspect and I assume that the reader does not know how to code but knows how to google stuff. If you know how to code but are still confused as to how games are being made, this will be helpful :)</p>
+
+<p>There are 3 major roles in bringing a video game to life:</p>
+
+<ol>
+  <li>Design</li>
+  <li>Art</li>
+  <li>Programming</li>
+</ol>
+
+<p>[in that order, (or not :) ]</p>
+
+<p>The <strong>Design</strong> part is more like a pre-development stage. It involves no technical know-how whatsoever, its pure creativity. Game Design basically involves coming up with an idea for the game. The game story, what the game characters should look like, levels, scenes, UI/UX all go into the design phase.</p>
+
+<p><img src="/images/create_games/designer.jpg" alt="Designer" /></p>
+
+<p>Typically, designers communicate with artists and programmers and tell them what to create.</p>
+
+<p><strong>Artists</strong> basically create the game assets such as characters, animations, spritesheets(for 2D games), models(for 3D games), music, sound effects, scenes, platforms for platformer games. Creating game art basically involves a lot of creativity and skills.</p>
+
+<p><img src="/images/create_games/artist.jpg" alt="artist" /></p>
+
+<p>A game artist would typically use tools like Gimp, Spriter, Blender, Maya, FMOD etc</p>
+
+<p><img src="/images/create_games/acharcter.jpg" alt="character_creation" /></p>
+
+<p>Although most folks like to separate those who create graphical art from sound composers, but heck, art is art.</p>
+
+<p><strong>Programming</strong> involves writing some code that actually gives life to the game. It is the most important role creating a video game. Dictating the gameplay logic, polling for user input, creating the UI for the game are all accomplished by with some code written by a programmer.</p>
+
+<p>What you have read above is just a generally overview of what goes into creating a video game. But in reality if you are just some random guy/girl and you want to make games solo, taking all the responsibility, and you don’t know where to start from, you’re gonna have to really humble yourself by starting with very little things.</p>
+
+<p>I’m afraid but you cannot <em>“make a game like NFS heat within 1 month”(not even one year sis/bro )</em>, calm down please. Many of these huge titles typically take about 5 years(give or take 3 years) for a team of teams of experts from various works to complete.</p>
+
+<p>Start by learning how to program. And by that I mean actually understanding the concepts of computer programming and not just <em>sort of</em> knowing the syntax of a particular programming language without actually understanding the program flow.</p>
+
+<p>Pick a programming language (in my opinion, python is good for a start), learn the syntax and
+write a lot of programs, solve a lot of problems, write trivial CLI games like quiz, hangman, tic-tac-toe etc. Then pick another language (I recommend one with C-like syntax, if you don’t know what I mean by C-like syntax, just learn C.)</p>
+
+<p>If you have written a lot of programs and you no longer feel intimidated seeing code then you should write your first graphical game :)</p>
+
+<p>Don’t rush it please, keep it simple and continue being humble chief. I am not going to tell you which tool or framework exactly you should use or the game you should create but I will give you some opinions which you may not heed if you wish.</p>
+
+<p>You can write a simple game like pong, tetris, breakout or something of that sort. You can use <a href="https://www.pygame.org/">pygame</a>(python), <a href="https://phaser.io/">Phaser</a>(Javascript), <a href="http://cocos2d.org/">Cocos2D</a>(C++), <a href="https://www.monogame.net/">monogame</a>(C#), <a href="https://libgdx.badlogicgames.com/">libgdx</a>(Java) etc. This <a href="https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript">2D breakout game using pure JavaScript</a> really made sense to me as a beginner. You could as well go traditional, <a href="http://learnopengl.com/">learn openGL</a> or <a href="https://www.youtube.com/playlist?list=PLv8DnRaQOs5-ST_VDqgbbMRtzMtpK36Hy">directX</a> and write a simplistic game using C/C++ entirely from scratch. You most likely cannot do these by yourself so you gotta know how to google stuff(it is very important!). I expect that you are going to write your first graphical game by following the exact instructions of a tutorial, do not be too hard on yourself.</p>
+
+<p>After writing your first graphical game, you should now understand what actually makes a game “a game”. Basically, you are only telling objects on your canvas/screen to update itself every few milliseconds in a <strong>game loop</strong> based on some criteria(user input and some trivial arithmetic operations), render(draw) the updated world on the screen and eventually dispose of objects which are no longer needed to prevent leakage of memory. The rest should be based on your technical creativity. You can follow a few more tutorials and then write a game entirely on your own.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>initializeGameObjects()
+
+//the game loop
+while(!gameOverConditionIsMet){
+    pollUserInput()
+    updateGameWorld()
+    checkStatesOfGameObjects()
+    render()
+    checkGameOverCondition()
+}
+
+dispose(objectsNoLongerOfUse)
+</code></pre></div></div>
+
+<p>If you have made a few trivial games and you are now getting bored, you may then proceed to start using those advanced game development tools that intimidated you before and when you feel really comfortable making games already, start making 3D games, but please do not leap, start small as usual(how about a 3D version of pacman, or you could just simulate a bouncing ball for a start).</p>
+
+<p>By <strong>advanced game development tools</strong> I meant full-fledged game engines such as <a href="https://unity.com/">Unity</a>, <a href="https://www.unrealengine.com">Unreal Engine</a>, <a href="https://www.cryengine.com/">Cryengine</a> etc. If you really learnt what you were supposed to learn as advised above, using these game engines should be a breeze, because most of them allow you to do a lot of cool stuff with very minimal code and they even allow you to edit your game elements painlessly with the help of scenegraphs and the likes. But if you really want to write all the code yourself they still give you room to script your entire game(which usually involves a lot of work).</p>
+
+<p>These days you do not really have to worry about being alone as a game developer if you don’t know how to make game art, music or what not. There are tons of free game assets online, from animation spritesheets to pre-rigged, animated 3D models and background music and sound effects.</p>
+
+<p>If you don’t know how to code at all and do not feel like learning some obscure programming syntax, don’t fret, you can still make games, you will only have to understand the game logic. There are a lot of drag-and-drop tools with which you can quickly make something quite impressive within just a few minutes. There’s <a href="https://www.yoyogames.com/gamemaker">GameMaker</a>, <a href="https://gdevelop-app.com/">GDevelop</a>, <a href="https://www.buildbox.com/">Buildbox</a>, <a href="http://www.rpgmakerweb.com/">RPG Maker</a>, <a href="http://www.adventuregamestudio.co.uk/">Adventure Game Studio</a>. The major reason why some people still prefer to script their games is because these no-code engines may not exactly give you full freedom to customise your game as you wish but it’s just OK if you aren’t looking to secure a career as a <a href="https://en.wikipedia.org/wiki/Video_game_programmer">Game Programmer</a>.</p>
+
+<p><img src="/images/create_games/programmer.jpg" alt="programmer" /></p>
+
+<p>If you want to secure a career as a full-time Game Programmer, it is advisable to go down to the roots of computer graphics and learn a language like C/C++ which gives you more control over system resources like memory because games are very power-intensive programs and prone to memory leakages if not properly handled. Many other scripting languages like Java, C#, lua, etc have a way of handling memory but, again, you do not have full control over how memory is being handled. You may want to as well learn some graphics programming APIs like <a href="https://www.opengl.org/">openGL</a>, <a href="https://en.wikipedia.org/wiki/DirectX">directX</a>, <a href="https://www.khronos.org/vulkan/">vulkan</a> or <a href="https://developer.apple.com/metal/">metal</a>(for iOS and mac). It is advisable to learn openGL or directX first. You should take your time to learn these as they are low-level technologies and not like regular programming. Being able to write a game or a game engine entirely from scratch without the help of any advanced software gives you an edge to work as a Game Programmer in AAA companies. Some AAA companies use Unity, Unreal or Cryengine so learning at least one of these will definitely avail you some opportunities.</p>
+
+<p><img src="/images/create_games/fortnite.jpg" alt="fortnite" /></p>
+
+<p><em>Fortnite and far cry were made using unreal and cryengine respectively.</em></p>
+:ET

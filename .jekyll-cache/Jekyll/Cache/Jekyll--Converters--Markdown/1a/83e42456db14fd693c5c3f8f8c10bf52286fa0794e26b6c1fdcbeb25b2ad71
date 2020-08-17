@@ -1,0 +1,44 @@
+I"p<p><em>You can’t see it to believe it, you have to be it to believe it.</em></p>
+
+<p><img src="/images/VR/feature.jpg" alt="Video_Game" /></p>
+
+<p>Virtual Reality(VR) is a technology that puts a user in a distant or virtual environment and allows the user to experience a space which cannot be reached physically. It offers a sense of depth and presence which you cannot get even with the best quality HD TV screens. This is achieved by the use of VR headsets. 
+<!-- It gives an illusion of presence to wearer of the headset. --></p>
+
+<p>Virtual Reality has been used for medical, flight simulation, automobile industry design, and military training purposes for a very long time now. A few gaming companies like atari and sega also tried to venture into VR but they weren’t widely accepted at that time. It wasn’t used for entertainment until around last decade with the invention of the Occulus Rift by Palmer Luckey in 2010.</p>
+
+<p>Since then, VR has become really popular and today there are so many VR headsets in the market. With so many games available across various platforms. Playing a VR game is jusst as good as entering the TV screen and playing the role of the character.</p>
+
+<p>With all the fuss being said and seen about VR, one might think that the technology behind this “telepresence” of a thing is so ambigious. Meanwhile, the working principle of a VR headset is very simple. Its just a pair of convex lens each to magnify a screen in front of it to give an illusion of presence to the wearer of the headset. They have IMUs(motion sensors) so that as you nod or rotate your head, the camera in the virtual scene follows suit. That is all there is to that “obscure gizmo” that WoWs you whenever you put it on.</p>
+
+<p><img src="/images/VR/lenses.jpg" alt="Video_Game" />
+<img src="/images/VR/lenses_scr.jpg" alt="Video_Game" /></p>
+
+<p>Basically, there are three different kinds of VR headsets:</p>
+<ol>
+  <li>Smartphone-based</li>
+  <li>PC/Console-based</li>
+  <li>Standalone</li>
+</ol>
+
+<p>There’s really nothing to <strong>Smartphone-based</strong> VR headsets, its just a pair of lenses. Your smartphone will act as a screen and motion sensor with the help of the motion sensors that are present in your device. Unfortunately though, motion sensors are not complete in all smartphones, they all have accelerometers, which measures the devices tilting angle. Gyroscopes are also needed to determine the rotational angle of the device for a complete VR experience, but not all smartphones have gyroscopes. Hence, smartphones without gyroscopes are not VR compatible and will not not play most VR games, won’t even be able to install some. To know if your android device is VR compatible, there are several apps that will tell you your fate at the click of a button by simply detecting the presence or absence of a gyroscope in your device. We started to see smartphone-based VR headsets in 2014 with the introduction of the cardboard by google. Google cardboards come in form of pieces of cartons with a pair of lenses you arrange and place your phone for viewing stuff. Since then a lot of companies have produced similar and even better-looking headsets adding more juice to it like strap-ons, cushions, headphones, controllers etc. If you’re going to be seeing a movie with your cardboard or headset, you gotta download a VR player kinda app which splits the view-screen into two equal halves, one for each lens.</p>
+
+<p><img src="/images/VR/buildcdbrd.jpg" alt="Video_Game" />
+<img src="/images/VR/cardboardphone.jpg" alt="Video_Game" />
+<img src="/images/VR/cardboard.jpg" alt="Video_Game" /></p>
+
+<p><img src="/images/VR/headset.jpg" alt="Video_Game" />
+<img src="/images/VR/bobovr.jpg" alt="Video_Game" />
+<img src="/images/VR/vrbox.jpg" alt="Video_Game" />
+<img src="/images/VR/smartphonebased.jpg" alt="Video_Game" />
+<img src="/images/VR/smartset.png" alt="Video_Game" /></p>
+
+<p>Two smartphone-based VR headsets that are worth talking about are Samsung gear VR and Google Daydream View.<br />
+The samsung gear VR headsets were developed by Samsung in collaboration with Occulus, it works with a samsung galaxy device which acts as a display and processor while the headset itself acts as an IMU for rotational tracking, connecting to the smartphone via USB-C or micro-USB. The Gear VR headset also includes a touchpad and back button on the side, as well as a proximity sensor to detect when the headset is on. <br />
+Daydream was a platform developed by Google and incorporated into the Android OS(versions “Nougat” 7.1 and later) primarily for use with Daydream View headset into which the smartphone should be inserted. On October 15, 2019, Google announced that it would no longer sell the Daydream View headset, and that their new flagship phones, the Pixel 4 and Pixel 4 XL, would not be certified for Daydream. No phones released in 2019 are compatible with Daydream, and the company confirmed that no additional devices would be certified for the platform. A spokesperson said, “There hasn’t been the broad consumer or developer adoption we had hoped, and we’ve seen decreasing usage over time of the Daydream View headset.” The representative said that the company recognized the potential in smartphone VR but: “we noticed some clear limitations constraining smartphone VR from being a viable long-term solution. Most notably, asking people to put their phone in a headset and lose access to the apps they use throughout the day causes immense friction.” Google confirmed that the Daydream app and app store would remain available.</p>
+
+<p><img src="/images/VR/zzzgearvr.jpg" alt="Video_Game" />
+<img src="/images/VR/zzzdaydream.jpg" alt="Video_Game" /></p>
+
+<p>PC/Console-based VR headsets have a screen placed in front of each lens, making two small screens. They also include the IMUs for rotational tracking but the processing power comes from a PC or console and is usually tethered via cables(usually USB-C).</p>
+:ET
