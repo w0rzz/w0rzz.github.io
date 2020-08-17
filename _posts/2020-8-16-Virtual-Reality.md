@@ -75,9 +75,9 @@ The samsung gear VR headsets were developed by Samsung in collaboration with Occ
 Daydream was a platform developed by Google and incorporated into the Android OS(versions "Nougat" 7.1 and later) primarily for use with Daydream View headset into which the smartphone should be inserted to serve as a display. On October 15, 2019, Google announced that it would no longer sell the Daydream View headset, and that their new flagship phones, the Pixel 4 and Pixel 4 XL, would not be certified for Daydream. No phones released in 2019 are compatible with Daydream, and the company confirmed that no additional devices would be certified for the platform. A spokesperson said, "There hasn't been the broad consumer or developer adoption we had hoped, and we've seen decreasing usage over time of the Daydream View headset." The representative said that the company recognized the potential in smartphone VR but: "we noticed some clear limitations constraining smartphone VR from being a viable long-term solution. Most notably, asking people to put their phone in a headset and lose access to the apps they use throughout the day causes immense friction." Google confirmed that the Daydream app and app store would remain available.
 
 <div class="center">
-    <img src="/images/VR/zzzgearvr.JPG" alt="Gear VR"
+    <img src="/images/VR/zzzgearvr.jpg" alt="Gear VR"
     	title="gear VR" width="350" height="250" />
-    <img src="/images/VR/zzzdaydream.JPG" alt="daydream view"
+    <img src="/images/VR/zzzdaydream.jpg" alt="daydream view"
     	title="Daydream view" width="350" height="250" />
 </div>
 <!-- ![Video_Game]({{ site.baseurl }}/images/VR/zzzgearvr.jpg)
